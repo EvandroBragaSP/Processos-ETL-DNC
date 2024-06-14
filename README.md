@@ -1,6 +1,6 @@
 # Traffic ETL DAG
 
-Descrição:
+#Descrição:
 
 Extração: Nesta etapa, os dados são extraídos da API. Isso geralmente envolve fazer solicitações à API e receber os dados em um formato como JSON ou XML. As solicitações à API podem ser feitas usando várias técnicas, como solicitações HTTP GET ou POST.
 Transformação: Os dados extraídos da API são então transformados. Isso pode envolver uma variedade de operações, como limpeza de dados (por exemplo, remoção de valores nulos ou duplicados), conversão de tipos de dados, aplicação de cálculos ou agregações, e assim por diante. O objetivo é garantir que os dados estejam no formato correto e sejam úteis para o propósito pretendido.
