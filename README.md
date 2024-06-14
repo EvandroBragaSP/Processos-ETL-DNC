@@ -20,7 +20,9 @@ DAG: traffic_etl_dag
 Tarefas da DAG:
 
 create_traffic_tables: Cria as tabelas necessárias no banco de dados PostgreSQL.
+
 extract_traffic_data: Extrai dados de tráfego da API do Google Maps Directions.
+
 transform_and_load_data: Transforma os dados extraídos e os carrega na tabela traffic.
 
 **Requisitos:**
