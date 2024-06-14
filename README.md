@@ -50,7 +50,7 @@ No Airflow, configure a conexão para o PostgreSQL com o ID conn_datalake_path.
 Atualize a variável API_KEY no arquivo da DAG (traffic_etl_dag.py) com sua chave de API do Google Maps Directions.
 
 **Uso**
-1. Inicie o Airflow:
+1. **Inicie o Airflow:**
 
 sh
 airflow webserver
@@ -77,28 +77,48 @@ transform_and_load_data():
 A tabela traffic contém os seguintes campos:
 
 • id: Chave primária, serial.
+
 • start_address: Endereço de início.
+
 • start_location_lat: Latitude da localização de início.
+
 • start_location_lng: Longitude da localização de início.
+
 • end_address: Endereço de destino.
+
 • end_location_lat: Latitude da localização de destino.
+
 • end_location_lng: Longitude da localização de destino.
+
 • distance_text: Texto da distância.
+
 • distance_value: Valor da distância.
+
 • duration_text: Texto da duração.
+
 • duration_value: Valor da duração.
+
 • overview_polyline: Polilinha de visão geral.
+
 • summary: Resumo.
+
 • copyright: Direitos autorais.
+
 • status: Status.
 
 
-Contribuição
-Fork o projeto
-Crie sua feature branch (git checkout -b feature/nova-feature)
-Commit suas mudanças (git commit -am 'Adiciona nova feature')
-Push para a branch (git push origin feature/nova-feature)
-Crie um novo Pull Request
-Licença
+**Contribuição**
+1. **Fork o projeto**
+2. **Crie sua feature branch (git checkout -b feature/nova-feature)**
+3. **Commit suas mudanças (git commit -am 'Adiciona nova feature')**
+4. **Push para a branch (git push origin feature/nova-feature)**
+5. **Crie um novo Pull Request**
+   
+**Licença**
+
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+**Contato**
+
+Para mais informações, entre em contato com evandrobraga2005@gmail.com.
 
