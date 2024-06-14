@@ -22,39 +22,35 @@ PostgreSQL;
 Requests (biblioteca Python para fazer requisições HTTP).
 
 Configuração:
-1.Clone o repositório: git clone https://github.com/seu-usuario/traffic-etl-dag.git
+1. Clone o repositório: git clone https://github.com/seu-usuario/traffic-etl-dag.git
 cd traffic-etl-dag
 
-2.Instale as dependências: 
+2. Instale as dependências: 
 Certifique-se de ter um ambiente virtual configurado e ativado. Em seguida, instale as dependências: pip install -r requirements.txt
 
-3.Configuração do Airflow: 
+3. Configuração do Airflow: 
 Configure sua instância do Airflow. Certifique-se de ter um airflow.cfg configurado corretamente. Atualize o arquivo airflow.cfg com as informações do banco de dados PostgreSQL.
 
-Variáveis do Airflow:
-
+4. Variáveis do Airflow:
 No Airflow, configure a conexão para o PostgreSQL com o ID conn_datalake_path.
 
-Credenciais da API:
-
+5. Credenciais da API:
 Atualize a variável API_KEY no arquivo da DAG (traffic_etl_dag.py) com sua chave de API do Google Maps Directions.
 
 Uso
-Inicie o Airflow:
+1. Inicie o Airflow:
 
 sh
-Copiar código
 airflow webserver
 airflow scheduler
-Carregue a DAG:
 
+2. **Carregue a DAG:**
 Coloque o arquivo traffic_etl_dag.py na pasta dags do Airflow.
 
-Execute a DAG:
-
+3. **Execute a DAG:**
 No Airflow UI, ative e execute a DAG traffic_etl_dag.
 
-Detalhes da Implementação
+**Detalhes da Implementação:**
 Funções da DAG
 create_tables():
 
